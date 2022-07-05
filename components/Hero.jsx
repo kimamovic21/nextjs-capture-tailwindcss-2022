@@ -33,4 +33,3 @@ export default Hero;
 // 4. uredujemo overlay div element
 // 5. uredujemo content div element i elemente unutar njega
 // 6. dodajemo react props
-// 7. 

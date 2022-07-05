@@ -10,4 +10,15 @@
 10. unutar components foldera kreiramo Navbar.jsx komponentu
 11. otvaramo i ureduemo _app.js fajl
 12. instaliramo paket react-icons
-13. 
+13. u components folderu kreiramo Slider.jsx komponentu
+14. u components folderu kreiramo i uredujemo SliderData.js fajl
+15. otvaramo i uredujemo Slider.jsx komponentu
+16. otvaramo i uredujemo next.confing.js fajl
+17. u components folderu kreiramo Instagram.jsx komponentu
+18. otvaramo i uredujemo Instagram.jsx komponentu
+19. kreiramo komponentu InstagramImg.jsx
+20. otvaramo i uredujemo InstagramImg.jsx komponentu
+21. u pages folderu kreiramo work.jsx i contact.jsx komponente
+22. u components folderu kreiramo Portfolio.jsx komponentu
+23. otvaramo i uredujemo Portfolio.jsx komponentu
+24. kreiramo i uredujemo Contact.jsx komponentu

@@ -45,7 +45,7 @@ const Navbar = () => {
                     <Link href='/#gallery'>Gallery</Link>
                 </li>
                 <li className='p-4'>
-                    <Link href='/portfolio'>Work</Link>
+                    <Link href='/work'>Work</Link>
                 </li>
                 <li className='p-4'>
                     <Link href='/contact'>Contant</Link>
@@ -71,16 +71,16 @@ const Navbar = () => {
                 'sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300' : 
                 'sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300'}>
               <ul>
-                <li className='p-4 text-4xl text-gray-400'>
+                <li onClick={handleNav} className='p-4 text-4xl text-gray-400'>
                     <Link href=''>Home</Link>
                 </li>
-                <li className='p-4 text-4xl text-gray-400'>
+                <li onClick={handleNav} className='p-4 text-4xl text-gray-400'>
                     <Link href='/#gallery'>Gallery</Link>
                 </li>
-                <li className='p-4 text-4xl text-gray-400'>
-                    <Link href='/portfolio'>Work</Link>
+                <li onClick={handleNav} className='p-4 text-4xl text-gray-400'>
+                    <Link href='/work'>Work</Link>
                 </li>
-                <li className='p-4 text-4xl text-gray-400'>
+                <li onClick={handleNav} className='p-4 text-4xl text-gray-400'>
                     <Link href='/contact'>Contant</Link>
                 </li>
               </ul>
@@ -114,7 +114,8 @@ export default Navbar;
 // 12. ul elementu dodajemo style atribut
 // 13. ikonicama u divu za mobile dodajem style atribut
 // 14. dodajemo useEffect hook
-// 15.  
+// 15. u divu za Mobile menu, li elementima dodajemo onClick dogadaje
+
 
 
 

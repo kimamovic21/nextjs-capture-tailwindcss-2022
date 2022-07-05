@@ -1,6 +1,9 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Hero from '../components/Hero'
+import Head from 'next/head';
+import Image from 'next/image';
+import Hero from '../components/Hero';
+import Instagram from '../components/Instagram';
+import Slider from '../components/Slider';
+import {SliderData} from '../components/SliderData';
 
 export default function Home() {
   return (
@@ -14,9 +17,11 @@ export default function Home() {
         <Hero heading='Capture photography' 
               message='I capture moments in nature and keep them alive.'
         />
+        <Slider slides={SliderData}/>
+        <Instagram />
     </div>
-  )
-}
+  );
+};
 
 
 
@@ -26,4 +31,6 @@ export default function Home() {
 // 2. mijenjamo title - naslov stranice
 // 3. importujemo Hero.jsx komponentu unutar div parent elementa
 // 4. Hero elementu dodajemo atribute
-// 5. 
+// 5. Dodajemo Slider komponentu
+// 6. Slider komponentu dodajemo slides atribut
+// 7. Dodajemo Instagram komponentu
