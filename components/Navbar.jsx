@@ -32,22 +32,22 @@ const Navbar = () => {
         <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-[#fff]'>
             <Link href='/'>
                 <h1 style={{color: `${textColor}`}}
-                    className='font-bold text-4xl'>
+                    className='font-bold text-4xl cursor-pointer'>
                     Capture
                 </h1>
             </Link>
             <ul style={{color: `${textColor}`}}
                 className='hidden sm:flex'>
-                <li className='p-4'>
+                <li className='p-4 hover:scale-110 hover:bg-[#1a1a1a] hover:text-[#f4f4f4] ease-out duration-100 rounded-3xl'>
                     <Link href=''>Home</Link>
                 </li>
-                <li className='p-4'>
+                <li className='p-4 hover:scale-110 hover:bg-[#1a1a1a] hover:text-[#f4f4f4] ease-out duration-100 rounded-3xl'>
                     <Link href='/#gallery'>Gallery</Link>
                 </li>
-                <li className='p-4'>
+                <li className='p-4 hover:scale-110 hover:bg-[#1a1a1a] hover:text-[#f4f4f4] ease-out duration-100 rounded-3xl'>
                     <Link href='/work'>Work</Link>
                 </li>
-                <li className='p-4'>
+                <li className='p-4 hover:scale-110 hover:bg-[#1a1a1a] hover:text-[#f4f4f4] ease-out duration-100 rounded-3xl'>
                     <Link href='/contact'>Contant</Link>
                 </li>
             </ul>
@@ -71,16 +71,20 @@ const Navbar = () => {
                 'sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300' : 
                 'sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300'}>
               <ul>
-                <li onClick={handleNav} className='p-4 text-4xl text-gray-400'>
+                <li onClick={handleNav} 
+                    className='p-4 text-4xl text-gray-400'>
                     <Link href=''>Home</Link>
                 </li>
-                <li onClick={handleNav} className='p-4 text-4xl text-gray-400'>
+                <li onClick={handleNav} 
+                    className='p-4 text-4xl text-gray-400'>
                     <Link href='/#gallery'>Gallery</Link>
                 </li>
-                <li onClick={handleNav} className='p-4 text-4xl text-gray-400'>
+                <li onClick={handleNav} 
+                    className='p-4 text-4xl text-gray-400'>
                     <Link href='/work'>Work</Link>
                 </li>
-                <li onClick={handleNav} className='p-4 text-4xl text-gray-400'>
+                <li onClick={handleNav} 
+                    className='p-4 text-4xl text-gray-400'>
                     <Link href='/contact'>Contant</Link>
                 </li>
               </ul>
