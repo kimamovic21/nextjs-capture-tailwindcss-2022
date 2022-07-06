@@ -21,24 +21,29 @@ const Contact = () => {
                 <input className='border shadow-lg p-3 outline-none focus:scale-105 ease-out duration-200'
                        type="text" 
                        placeholder='Name' 
+                       name='my-form'
                 />
                 <input className='border shadow-lg p-3 outline-none focus:scale-105 ease-out duration-200'
                        type="text" 
                        placeholder='Surname' 
+                       name='my-form'
                 />
             </div>
             <input className='border shadow-lg p-3 w-full my-2 outline-none focus:scale-105 ease-out duration-200'
-                   type="text" 
-                   placeholder='Subject' 
+                   type="email" 
+                   placeholder='Email'
+                   name='my-form' 
             />
             <input className='border shadow-lg p-3 w-full my-2 outline-none focus:scale-105 ease-out duration-200'
                    type="text" 
                    placeholder='Subject' 
+                   name='my-form'
             />
             <textarea className='border shadow-lg p-3 w-full outline-none focus:scale-105 ease-out duration-200'
                       cols="30" 
                       rows="10"
                       placeholder='Message'
+                      name='my-form'
             />
             <button className='border shadow-lg p-3 w-full mt-2 bg-[#0073f7] text-[#efefef] rounded-xl 
                              hover:bg-[#0a10bc] ease-in-out duration-300 hover:scale-105'>
